@@ -18,7 +18,7 @@ class Auto:
             print "No se mueve"
     
     
-mi_auto = Auto(18)
+mi_auto = Auto(5)
 
 # cuanta gasolina tenemos
 print mi_auto.gasolina
@@ -29,3 +29,4 @@ mi_auto.conducir()
 mi_auto.conducir()
 mi_auto.conducir()
 mi_auto.arrancar()
+mi_auto.conducir()
