@@ -8,6 +8,7 @@ def ciclo(anio_fin):
     while anio <= anio_fin:
       print u"Año", str(anio), str(anio_fin)
       anio += 1
+    print u"Para ayuda en este programa utilice la opción '--help'"
 
 if __name__ == '__main__':
     ciclo()
