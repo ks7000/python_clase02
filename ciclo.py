@@ -2,7 +2,7 @@
 import click
 
 @click.command()
-@click.option('--anio_fin', default=2021, prompt ='¿Hasta cuál año desea imprimir?', help='Permite definir hasta cuál año se ejecuta el ciclo')
+@click.option('--anio_fin', default=2021, prompt ='¿Hasta cuál año desea imprimir?', help=u'Permite definir hasta cuál año se ejecuta el ciclo')
 def ciclo(anio_fin):
     anio = 2001
     while anio <= anio_fin:
