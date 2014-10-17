@@ -24,4 +24,4 @@ class Auto:
         else:
             print "No se mueve"
 
-mi_decorador = decorar(arrancar())
+#mi_decorador = decorar(arrancar())
